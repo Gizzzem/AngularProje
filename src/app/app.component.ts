@@ -11,22 +11,24 @@ declare var $:any
 export class AppComponent {
   title = 'AngularProje';
   constructor(private toastreService: CustomToastrService){
-    toastreService.message("Merhaba", "Harunm",{
+    toastreService.message("Merhaba", "Harun",{
       messageType:ToastrMessageType.Info,
       position:ToastrPosition.TopRight
     });
-    toastreService.message("Merhaba", "Harunm", {
+    toastreService.message("Merhaba", "Harun", {
       messageType:ToastrMessageType.Success,
       position:ToastrPosition.TopRight
     });
-    toastreService.message("Merhaba", "Harunm", {
+    toastreService.message("Merhaba", "Harun", {
       messageType:ToastrMessageType.Warning,
       position:ToastrPosition.TopRight
     });
-    toastreService.message("Merhaba", "Harunm", {
+    toastreService.message("Merhaba", "Harun", {
       messageType:ToastrMessageType.Error,
       position:ToastrPosition.TopRight
     });
   }
 }
+
+
 
